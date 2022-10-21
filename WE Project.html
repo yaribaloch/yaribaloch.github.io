@@ -1,0 +1,93 @@
+<html>
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Project</title>
+    link
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .form {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: left;
+            gap: 10px;
+        }
+
+        .form div:first-child {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .form div:first-child img {
+            width: 100px;
+            height: 120px;
+            border-radius: 20px;
+        }
+
+        .form div {
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+<head>
+<link rel="stylesheet" type="text/css" href="CSS.css"/>
+<body bgcolor=gray>
+<h2>My Details</h2>
+    <div class="form">
+        <div>
+            <img src="Profile.jpg" alt="My Profile">
+        </div>
+        <div>
+            <label for="Name"><b>Name: </b>Yasir Tufail</label>
+        </div>
+        <div>
+            <label for="Reg No"><b>Reg. No: </b>3976-FBAS/BSCS4-F18</label>
+        </div>
+        <div>
+            <label for="Contact"><b>Contact: </b>03495656307</label>
+        </div>
+	<div>
+            <label for="E-mail"><b>E-mail: </b>myarikhan555@gmail.com</label>
+        </div>
+    </div>
+<div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+<br/>
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="lname">Father Name</label>
+    <input type="text" id="f_name" name="fathername" placeholder="Your father name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="P\pakistan">Pakistan</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+</body>
+</head>
+</html>
